@@ -1,0 +1,38 @@
+:root{
+ --basic-text-color: #212121;
+--accent-color: #2196F3;
+--secondary-text-color: #FFF;
+--paragraph-text-color:#757575;
+}
+body{font-family: 'Roboto', sans-serif;
+color: var(--basic-text-color);}
+/* ------------------HEADER----------------------- */
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.23;
+    letter-spacing: 0.78px;
+    color: var(--basic-text-color);
+}
+.span-logo{color:var(--accent-color)}
+
+.hader-link{
+    color: var(--basic-text-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2.28;
+    letter-spacing: 0.28px;}
+
+    .hader-link:hover,:focus{color: var(--accent-color);
+    }
+.contacts-link{
+    color: var(--paragraph-text-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2.28;
+    letter-spacing: 0.28px;}
+.contacts-link:hover,:focus{color: var(--accent-color);
+}
+/* ------------------SECTION_HERO----------------------- */
