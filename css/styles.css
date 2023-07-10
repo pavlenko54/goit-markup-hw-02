@@ -17,6 +17,8 @@ color: var(--basic-text-color);}
     border: 0;
     clip: react(0000);
     }
+.list-style-none {list-style: none;}
+.decoration-none {text-decoration: none;}
 /* ------------------HEADER----------------------- */
 
 .logo {
